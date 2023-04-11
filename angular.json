@@ -37,6 +37,9 @@
           },
           "configurations": {
             "production": {
+              "aot": true,
+              "optimization": true,
+              "buildOptimizer": true,
               "budgets": [
                 {
                   "type": "initial",
